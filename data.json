@@ -1,0 +1,168 @@
+{
+    "aliveAthletes": 13,
+    "backgroundColor": [15, 35, 50],
+    "marginColor": [60, 80, 90],
+    "mainFont": "Corbel-48.vlw",
+    "eliminatedTextFont": "Corbel-48.vlw",
+    "eliminatedTextDelay": 1,
+    "showTextOutlines": true,
+    "marginTextAlign": "RIGHT",
+    "athletes": [
+        {
+            "name": "White",
+            "color": [255, 255, 255],
+            "startPoints": 1,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Silver",
+            "color": [192, 192, 192],
+            "startPoints": 91193,
+            "earnedPoints": 51057
+        },
+        {
+            "name": "Grey",
+            "color": [128, 128, 128],
+            "startPoints": 2097,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Shadow",
+            "color": [63, 63, 63],
+            "startPoints": 96557,
+            "earnedPoints": 65718
+        },
+        {
+            "name": "Black",
+            "color": [0, 0, 0],
+            "startPoints": 108,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Red",
+            "color": [255, 0, 0],
+            "startPoints": 57592,
+            "earnedPoints": 73130
+        },
+        {
+            "name": "Maroon",
+            "color": [128, 0, 0],
+            "startPoints": 56988,
+            "earnedPoints": 36539
+        },
+        {
+            "name": "Orange",
+            "color": [255, 128, 0],
+            "startPoints": 95606,
+            "earnedPoints": 33533
+        },
+        {
+            "name": "Tan",
+            "color": [192, 128, 63],
+            "startPoints": 2832,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Brown",
+            "color": [128, 63, 0],
+            "startPoints": 59092,
+            "earnedPoints": 29280
+        },
+        {
+            "name": "Yellow",
+            "color": [255, 255, 0],
+            "startPoints": 106718,
+            "earnedPoints": 44649
+        },
+        {
+            "name": "Olive",
+            "color": [128, 128, 0],
+            "startPoints": 85712,
+            "earnedPoints": 58440
+        },
+        {
+            "name": "Lime",
+            "color": [0, 255, 0],
+            "startPoints": 84074,
+            "earnedPoints": 19002
+        },
+        {
+            "name": "Green",
+            "color": [0, 192, 0],
+            "startPoints": 765,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Cyan",
+            "color": [0, 255, 255],
+            "startPoints": 67207,
+            "earnedPoints": 26445
+        },
+        {
+            "name": "Sky",
+            "color": [0, 128, 255],
+            "startPoints": 5534,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Blue",
+            "color": [0, 0, 255],
+            "startPoints": 53270,
+            "earnedPoints": 22004
+        },
+        {
+            "name": "Navy",
+            "color": [0, 0, 128],
+            "startPoints": 25385,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Indigo",
+            "color": [31, 0, 128],
+            "startPoints": 67,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Lavender",
+            "color": [192, 128, 255],
+            "startPoints": 6842,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Purple",
+            "color": [128, 0, 255],
+            "startPoints": 10,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Pink",
+            "color": [255, 128, 255],
+            "startPoints": 11754,
+            "earnedPoints": 0   
+        },
+        {
+            "name": "Magenta",
+            "color": [255, 0, 255],
+            "startPoints": 99537,
+            "earnedPoints": 8856
+        },
+        {
+            "name": "Violet",
+            "color": [128, 0, 128],
+            "startPoints": 15864,
+            "earnedPoints": 0
+        },
+        {
+            "name": "Rose",
+            "color": [255, 0, 128],
+            "startPoints": 66080,
+            "earnedPoints": 11753
+        },
+        {
+            "name": "Raspberry",
+            "color": [128, 0, 63],
+            "startPoints": 222,
+            "earnedPoints": 0
+        }
+    ]
+}
