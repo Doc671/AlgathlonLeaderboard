@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 Athlete[] athletes;
-int aliveAthletes, barHeight, eliminatedTextDelay, eliminatedTextOffset, fontSize, marginTextAlign, maxScore, tick;
+int aliveAthletes, athletesToEliminate, barHeight, eliminatedTextDelay, eliminatedTextOffset, fontSize, marginTextAlign, maxScore, tick;
 color backgroundColour, marginColour;
 float progress;
 boolean showTextOutlines;
@@ -37,6 +37,7 @@ static float getLuminance(color colour) {
 void parseJsonData() {
   JSONObject rootJsonObject = loadJSONObject("data.json");
   aliveAthletes = rootJsonObject.getInt("aliveAthletes");
+  athletesToEliminate = rootJsonObject.getInt("athletesToEliminate");
   mainFont = loadFont(rootJsonObject.getString("mainFont"));
   eliminatedTextFont = loadFont(rootJsonObject.getString("eliminatedTextFont"));
   eliminatedTextDelay = int(rootJsonObject.getFloat("eliminatedTextDelay") * frameRate);
@@ -156,7 +157,7 @@ void draw() {
     
     tick++;    
     if (tick == barShuffleTick + barMoveDuration + eliminatedTextDelay) {
-      aliveAthletes--;
+      aliveAthletes -= athletesToEliminate;
     }
 
     if (tick < barShuffleTick) {

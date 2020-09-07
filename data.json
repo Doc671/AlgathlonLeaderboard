@@ -1,5 +1,6 @@
 {
     "aliveAthletes": 13,
+    "athletesToEliminate": 1,
     "backgroundColor": [15, 35, 50],
     "marginColor": [60, 80, 90],
     "mainFont": "Corbel-48.vlw",
